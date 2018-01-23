@@ -1,5 +1,5 @@
 <h1>Calcul d'une clé EAN 13</h1>
-<form name="" action="/calcul_cle_ean.php" method="POST">
+<form name="leformulaire" action="/calcul_cle_ean.php" method="POST">
     <input type="text" maxlength="12" name="code2calcul" value="<?php echo (isset($_POST["code2calcul"])) ? $_POST["code2calcul"] :'303792016200'; ?>">
     <input type="submit" value="Calculer">
 </form>
